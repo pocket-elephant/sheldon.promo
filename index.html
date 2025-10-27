@@ -20,9 +20,9 @@
       </a>
       <nav class="hidden md:flex items-center gap-6 text-sm">
         <a href="#collections" class="hover:text-emerald-600">Коллекции</a>
+        <a href="#comparison" class="hover:text-emerald-600">Сравнение</a>
         <a href="#materials" class="hover:text-emerald-600">Материалы</a>
-        <a href="#delivery" class="hover:text-emerald-600">Доставка</a>
-        <a href="#contacts" class="text-white bg-emerald-600 px-4 py-2 rounded">Заказать консультацию</a>
+        <a href="#contacts" class="text-white bg-emerald-600 px-4 py-2 rounded">Консультация</a>
       </nav>
       <button id="mobileBtn" class="md:hidden p-2 rounded bg-gray-100">
         <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path d="M3 6h14M3 10h14M3 14h14"/></svg>
@@ -56,8 +56,8 @@
 
   <!-- Collections -->
   <section id="collections" class="max-w-6xl mx-auto px-6 py-12">
-    <h2 class="text-2xl font-bold">Наши кухни — сравни с Leroy Merlin</h2>
-    <p class="text-gray-600 mt-2">Мы предлагаем ту же цену, но более качественные материалы и фурнитуру.</p>
+    <h2 class="text-2xl font-bold">Наши кухни — готовые проекты модулей</h2>
+    <p class="text-gray-600 mt-2">Мы не собираем «похожие» кухни. У нас — готовые комплекты SHELDON с продуманным дизайном, премиальной фурнитурой и материалами Egger.</p>
 
     <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <article class="bg-white rounded-lg shadow p-5 flex flex-col">
@@ -92,10 +92,60 @@
     </div>
   </section>
 
-  <!-- Дополнительные блоки -->
+  <!-- Comparison -->
+  <section id="comparison" class="bg-gray-50 border-t">
+    <div class="max-w-6xl mx-auto px-6 py-12">
+      <h2 class="text-2xl font-bold mb-6 text-center">Почему SHELDON выгоднее, чем кухни из сетевых магазинов</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full text-sm border-collapse">
+          <thead>
+            <tr class="bg-emerald-600 text-white">
+              <th class="py-3 px-4 text-left rounded-tl">Параметр</th>
+              <th class="py-3 px-4 text-left">Сетевой магазин</th>
+              <th class="py-3 px-4 text-left rounded-tr">SHELDON</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white">
+            <tr class="border-b">
+              <td class="py-3 px-4 font-semibold">Фурнитура с доводчиками</td>
+              <td class="py-3 px-4 text-red-600">Доплата ~5 000 ₽</td>
+              <td class="py-3 px-4 text-emerald-700">Входит в комплект</td>
+            </tr>
+            <tr class="border-b">
+              <td class="py-3 px-4 font-semibold">Столешница и стеновая панель</td>
+              <td class="py-3 px-4 text-red-600">Покупается отдельно</td>
+              <td class="py-3 px-4 text-emerald-700">Включено в цену</td>
+            </tr>
+            <tr class="border-b">
+              <td class="py-3 px-4 font-semibold">Кромление каркасов</td>
+              <td class="py-3 px-4 text-red-600">0,4 мм (острые углы)</td>
+              <td class="py-3 px-4 text-emerald-700">0,8 мм (премиум)</td>
+            </tr>
+            <tr class="border-b">
+              <td class="py-3 px-4 font-semibold">Материалы</td>
+              <td class="py-3 px-4 text-red-600">ДСП без подтверждённого класса эмиссии</td>
+              <td class="py-3 px-4 text-emerald-700">Egger E1 (Европейское качество)</td>
+            </tr>
+            <tr class="border-b">
+              <td class="py-3 px-4 font-semibold">Доставка по Краснодару</td>
+              <td class="py-3 px-4 text-red-600">Платно от 1 500 ₽</td>
+              <td class="py-3 px-4 text-emerald-700">Бесплатно</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-semibold rounded-bl">Сборка</td>
+              <td class="py-3 px-4 text-red-600">от 10–15% + сторонние сборщики</td>
+              <td class="py-3 px-4 text-emerald-700 rounded-br">10%, сборка студией SHELDON</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-6 text-center text-gray-700 font-medium">Скупой платит дважды — SHELDON стоит столько же, но прослужит дольше и не потребует доплат.</p>
+    </div>
+  </section>
+
+  <!-- Materials -->
   <section id="materials" class="bg-white border-t">
     <div class="max-w-6xl mx-auto px-6 py-12 space-y-12">
-
       <div>
         <h3 class="text-xl font-bold mb-4">Цвета каркасов</h3>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -103,7 +153,6 @@
           <img src="https://placehold.co/300x200?text=Egger+W960+ST7+Белый+классический" class="rounded shadow" alt="Egger W960">
         </div>
       </div>
-
       <div>
         <h3 class="text-xl font-bold mb-4">Варианты фрезеровок</h3>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -113,7 +162,6 @@
           <img src="https://placehold.co/300x200?text=Фрезеровка+4" class="rounded shadow" alt="Фрезеровка 4">
         </div>
       </div>
-
       <div>
         <h3 class="text-xl font-bold mb-4">Фасады</h3>
         <h4 class="font-semibold mb-2">Однотонные</h4>
@@ -127,7 +175,6 @@
           <img src="https://placehold.co/300x200?text=Текстурный+2" class="rounded shadow" alt="Текстурный фасад">
         </div>
       </div>
-
       <div>
         <h3 class="text-xl font-bold mb-4">Цвета столешниц</h3>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -135,7 +182,6 @@
           <img src="https://placehold.co/300x200?text=Столешница+2" class="rounded shadow" alt="Столешница 2">
         </div>
       </div>
-
       <div>
         <h3 class="text-xl font-bold mb-4">Ручки</h3>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -144,7 +190,6 @@
           <img src="https://placehold.co/300x200?text=Ручка+1000+мм" class="rounded shadow" alt="Ручка 1000 мм">
         </div>
       </div>
-
       <div>
         <h3 class="text-xl font-bold mb-4">Крючки и штанги</h3>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -152,7 +197,6 @@
           <img src="https://placehold.co/300x200?text=Штанга+овальная+хром" class="rounded shadow" alt="Штанга хром">
         </div>
       </div>
-
     </div>
   </section>
 
@@ -161,7 +205,7 @@
     <div class="bg-emerald-600 text-white p-8 rounded-lg flex flex-col md:flex-row items-center justify-between gap-6">
       <div>
         <h3 class="text-xl font-bold">Готовы сравнить?</h3>
-        <p class="mt-1">Присылайте коммерческое предложение от Leroy Merlin — мы соберём аналогичную комплектацию за ту же цену, но с материалами премиум-класса.</p>
+        <p class="mt-1">Присылайте фото или ссылку на кухню из сетевого магазина — мы покажем, почему готовые решения SHELDON выгоднее.</p>
       </div>
       <a href="#contacts" class="bg-white text-emerald-600 px-5 py-3 rounded font-semibold">Запросить расчёт</a>
     </div>
@@ -172,30 +216,4 @@
     <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-6">
       <div>
         <h4 class="font-bold">Контакты</h4>
-        <p class="text-gray-600 mt-2">Телефон: <a href="tel:+7XXXXXXXXXX" class="text-emerald-600">+7 (XXX) XXX-XX-XX</a></p>
-        <p class="text-gray-600">Адрес: Краснодар</p>
-      </div>
-      <div>
-        <h4 class="font-bold">Форма заявки</h4>
-        <form class="mt-2 grid gap-2">
-          <input placeholder="Ваше имя" class="border rounded px-3 py-2" />
-          <input placeholder="Телефон" class="border rounded px-3 py-2" />
-          <textarea placeholder="Комментарий" class="border rounded px-3 py-2"></textarea>
-          <button class="bg-emerald-600 text-white px-4 py-2 rounded">Отправить</button>
-        </form>
-      </div>
-      <div>
-        <h4 class="font-bold">Часы работы</h4>
-        <p class="text-gray-600 mt-2">Пн–Пт: 9:00–19:00<br>Сб: 10:00–16:00</p>
-      </div>
-    </div>
-    <div class="text-center text-sm text-gray-500 py-6">© SHELDON — Все права защищены</div>
-  </footer>
-
-  <script>
-    document.getElementById('mobileBtn').addEventListener('click', function(){
-      alert('Открой меню — в прототипе мобильное меню можно реализовать далее');
-    })
-  </script>
-</body>
-</html>
+        <p class="text-gray-600 mt-
